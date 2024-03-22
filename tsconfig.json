@@ -16,6 +16,12 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/*": ["src/*"],
+      "@app/common/*": ["src/common", "src/common/*"],
+      "@app/databases/*": ["src/config/databases", "src/config/databases/*"],
+      "@app/providers/*": ["src/providers", "src/providers/*"],
+    },
+  },
 }
